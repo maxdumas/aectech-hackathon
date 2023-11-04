@@ -1,0 +1,5 @@
+outs:
+- md5: c4c111c62e26f135d5aa397aa8485d44
+  size: 56340
+  hash: md5
+  path: BakeToFile_02.3dm

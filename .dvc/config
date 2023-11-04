@@ -1,2 +1,4 @@
+[core]
+    remote = soteriia-aws
 ['remote "soteriia-aws"']
     url = s3://aec-tech-hackathon

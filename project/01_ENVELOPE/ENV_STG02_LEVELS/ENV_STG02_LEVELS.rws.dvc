@@ -1,0 +1,5 @@
+outs:
+- md5: 90811ab305584ede2352a5f468690243
+  size: 1835
+  hash: md5
+  path: ENV_STG02_LEVELS.rws

@@ -1,0 +1,5 @@
+outs:
+- md5: 3c4fe3fdeabcd5db9a3b2a4e93fb1934
+  size: 56340
+  hash: md5
+  path: BakeToFile_03.3dm

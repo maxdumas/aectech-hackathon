@@ -1,0 +1,5 @@
+outs:
+- md5: 99cc86469dff2653099c3ee8e0f2453e
+  size: 1110
+  hash: md5
+  path: PAN_WF_STG01_Joints.rws
