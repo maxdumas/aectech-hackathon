@@ -1,0 +1,14 @@
+[project]
+name = ""
+version = ""
+description = ""
+authors = [
+    {name = "Max Dumas", email = "max@dumas.nyc"},
+]
+dependencies = [
+    "dvc>=3.28.0",
+]
+requires-python = ">=3.11"
+readme = "README.md"
+license = {text = "MIT"}
+
