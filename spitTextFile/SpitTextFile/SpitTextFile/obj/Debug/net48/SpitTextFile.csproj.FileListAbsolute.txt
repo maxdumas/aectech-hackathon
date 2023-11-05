@@ -1,0 +1,11 @@
+C:\Users\cnguyen\source\aectech-hackathon\spitTextFile\SpitTextFile\SpitTextFile\obj\Debug\net48\SpitTextFile.csproj.AssemblyReference.cache
+C:\Users\cnguyen\source\aectech-hackathon\spitTextFile\SpitTextFile\SpitTextFile\obj\Debug\net48\SpitTextFile.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\cnguyen\source\aectech-hackathon\spitTextFile\SpitTextFile\SpitTextFile\obj\Debug\net48\SpitTextFile.AssemblyInfoInputs.cache
+C:\Users\cnguyen\source\aectech-hackathon\spitTextFile\SpitTextFile\SpitTextFile\obj\Debug\net48\SpitTextFile.AssemblyInfo.cs
+C:\Users\cnguyen\source\aectech-hackathon\spitTextFile\SpitTextFile\SpitTextFile\obj\Debug\net48\SpitTextFile.csproj.CoreCompileInputs.cache
+C:\Users\cnguyen\source\aectech-hackathon\spitTextFile\SpitTextFile\SpitTextFile\obj\Debug\net48\SpitTextFile.gha
+C:\Users\cnguyen\source\aectech-hackathon\spitTextFile\SpitTextFile\SpitTextFile\obj\Debug\net48\SpitTextFile.pdb
+C:\Users\cnguyen\source\aectech-hackathon\spitTextFile\SpitTextFile\SpitTextFile\bin\Debug\net48\SpitTextFile.gha
+C:\Users\cnguyen\source\aectech-hackathon\spitTextFile\SpitTextFile\SpitTextFile\bin\Debug\net48\SpitTextFile.pdb
+C:\Users\cnguyen\source\aectech-hackathon\spitTextFile\SpitTextFile\SpitTextFile\bin\Debug\net48\YamlDotNet.dll
+C:\Users\cnguyen\source\aectech-hackathon\spitTextFile\SpitTextFile\SpitTextFile\obj\Debug\net48\SpitTextFile.csproj.CopyComplete

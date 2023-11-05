@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "xu8hre9YItWNIYD6lm2zaB0fMZiogoafIdwsR37cIgNNehz3hSRT+Bb1lqYRbyJem0SWCstzQ/41iy+VB/qsnw==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\cnguyen\\source\\aectech-hackathon\\spitTextFile\\SpitTextFile\\SpitTextFile\\SpitTextFile.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\cnguyen\\.nuget\\packages\\grasshopper\\7.13.21348.13001\\grasshopper.7.13.21348.13001.nupkg.sha512",
+    "C:\\Users\\cnguyen\\.nuget\\packages\\rhinocommon\\7.13.21348.13001\\rhinocommon.7.13.21348.13001.nupkg.sha512",
+    "C:\\Users\\cnguyen\\.nuget\\packages\\yamldotnet\\13.7.1\\yamldotnet.13.7.1.nupkg.sha512"
+  ],
+  "logs": []
+}
