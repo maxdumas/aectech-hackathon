@@ -6,3 +6,11 @@ C:\Users\krahimzadeh\Source\Repos\keyan-r\rhino-developer-samples-cs\rhinocommon
 C:\Users\krahimzadeh\Source\Repos\keyan-r\rhino-developer-samples-cs\rhinocommon\cs\SampleCsEto\obj\Debug\AllTheWayDown.csproj.CoreCompileInputs.cache
 C:\Users\krahimzadeh\Source\Repos\keyan-r\rhino-developer-samples-cs\rhinocommon\cs\SampleCsEto\obj\Debug\SampleCsEto.dll
 C:\Users\krahimzadeh\Source\Repos\keyan-r\rhino-developer-samples-cs\rhinocommon\cs\SampleCsEto\obj\Debug\SampleCsEto.pdb
+C:\Users\krahimzadeh\OneDrive - Grimshaw Architects\Documents\GitHub\aectech-hackathon\bin\SampleCsEto.dll
+C:\Users\krahimzadeh\OneDrive - Grimshaw Architects\Documents\GitHub\aectech-hackathon\bin\SampleCsEto.pdb
+C:\Users\krahimzadeh\OneDrive - Grimshaw Architects\Documents\GitHub\aectech-hackathon\AllTheWayDown\obj\Debug\AllTheWayDown.csproj.AssemblyReference.cache
+C:\Users\krahimzadeh\OneDrive - Grimshaw Architects\Documents\GitHub\aectech-hackathon\AllTheWayDown\obj\Debug\SampleCsEto.Properties.Resources.resources
+C:\Users\krahimzadeh\OneDrive - Grimshaw Architects\Documents\GitHub\aectech-hackathon\AllTheWayDown\obj\Debug\AllTheWayDown.csproj.GenerateResource.cache
+C:\Users\krahimzadeh\OneDrive - Grimshaw Architects\Documents\GitHub\aectech-hackathon\AllTheWayDown\obj\Debug\AllTheWayDown.csproj.CoreCompileInputs.cache
+C:\Users\krahimzadeh\OneDrive - Grimshaw Architects\Documents\GitHub\aectech-hackathon\AllTheWayDown\obj\Debug\SampleCsEto.dll
+C:\Users\krahimzadeh\OneDrive - Grimshaw Architects\Documents\GitHub\aectech-hackathon\AllTheWayDown\obj\Debug\SampleCsEto.pdb

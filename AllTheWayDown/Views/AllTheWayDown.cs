@@ -10,89 +10,89 @@ using System.Threading.Tasks;
 
 namespace SampleCsEto.Views
 {
-  /// <summary>
-  /// Warning! Modelers forms are not currently supported on Mac, you should use
-  /// Panels for cross platform mode-less UI.
-  /// </summary>
-  class AllTheWayDown : Form
-  {
-    public List<string> filepaths = new List<string>();
-    public List<TextBox> boxes = new List<TextBox>();
-
-    public AllTheWayDown()
+    /// <summary>
+    /// Warning! Modelers forms are not currently supported on Mac, you should use
+    /// Panels for cross platform mode-less UI.
+    /// </summary>
+    class AllTheWayDown : Form
     {
-      Maximizable = false;
-      Minimizable = false;
-      Padding = new Padding(5);
-      Resizable = false;
-      ShowInTaskbar = false;
-      Title = GetType().Name;
-      WindowStyle = WindowStyle.Default;
+        public List<string> filepaths = new List<string>();
+        public List<TextBox> boxes = new List<TextBox>();
+
+        public AllTheWayDown()
+        {
+            Maximizable = false;
+            Minimizable = false;
+            Padding = new Padding(5);
+            Resizable = false;
+            ShowInTaskbar = false;
+            Title = GetType().Name;
+            WindowStyle = WindowStyle.Default;
 
 
 
-      var hello_button = new Button { Text = "Hello" };
-      hello_button.Click += (sender, e) => OnHelloButton();
+            var hello_button = new Button { Text = "Hello" };
+            hello_button.Click += (sender, e) => OnHelloButton();
 
-      var close_button = new Button { Text = "RUN" };
-      close_button.Click += (sender, e) => RunFiles();
+            var close_button = new Button { Text = "RUN" };
+            close_button.Click += (sender, e) => RunFiles();
 
-      var hello_layout = new TableLayout
-      {
-        Padding = new Padding(5, 10, 5, 5),
-        Spacing = new Size(5, 5),
-        Rows = { new TableRow(null, hello_button, null) }
-      };
+            var hello_layout = new TableLayout
+            {
+                Padding = new Padding(5, 10, 5, 5),
+                Spacing = new Size(5, 5),
+                Rows = { new TableRow(null, hello_button, null) }
+            };
 
-      var close_layout = new TableLayout
-      {
-        Padding = new Padding(5, 10, 5, 5),
-        Spacing = new Size(5, 5),
-        Rows = { new TableRow(null, close_button, null) }
-      };
+            var close_layout = new TableLayout
+            {
+                Padding = new Padding(5, 10, 5, 5),
+                Spacing = new Size(5, 5),
+                Rows = { new TableRow(null, close_button, null) }
+            };
 
-      var tableLayout = new TableLayout
-      {
-        Padding = new Padding(5),
-        Spacing = new Size(5, 5),
-        Rows = {
+            var tableLayout = new TableLayout
+            {
+                Padding = new Padding(5),
+                Spacing = new Size(5, 5),
+                Rows = {
           
             //new TableRow(hello_layout),
             new TableRow(close_layout)
           }
-      };
+            };
 
-      LoadFiles();
+            LoadFiles();
 
-      foreach (TextBox textBox in boxes)
-      {
-        tableLayout.Rows.Add(new TableRow(textBox));
-      }
-      tableLayout.Rows.Add(null);
+            foreach (TextBox textBox in boxes)
+            {
+                tableLayout.Rows.Add(new TableRow(textBox));
+            }
+            tableLayout.Rows.Add(null);
 
-      Content = tableLayout;
-    }
+            Content = tableLayout;
+        }
 
-    protected override void OnLoadComplete(EventArgs e)
-    {
-      base.OnLoadComplete(e);
-      this.RestorePosition();
-    }
+        protected override void OnLoadComplete(EventArgs e)
+        {
+            base.OnLoadComplete(e);
+            this.RestorePosition();
+        }
 
-    protected override void OnClosing(CancelEventArgs e)
-    {
-      this.SavePosition();
-      base.OnClosing(e);
-    }
+        protected override void OnClosing(CancelEventArgs e)
+        {
+            this.SavePosition();
+            base.OnClosing(e);
+        }
 
-    protected void OnHelloButton()
-    {
-      MessageBox.Show(this, "Hello Rhino!", Title, MessageBoxButtons.OK);
-    }
+        protected void OnHelloButton()
+        {
+            MessageBox.Show(this, "Hello Rhino!", Title, MessageBoxButtons.OK);
+        }
 
-    protected void LoadFiles()
-    {
-      filepaths = new List<string>()
+        protected void LoadFiles()
+        {
+            filepaths = new List<string>()
       {
         @"C:\Users\krahimzadeh\Documents\LocalDocs\AEC_Tech\00_REFERENCE\REF_FLOORS\REF_FLOORS.gh",
         //@"C:\Users\krahimzadeh\Documents\LocalDocs\AEC_Tech\01_ENVELOPE\ENV_STG01_MASSING\ENV_STG01_Massing.gh",
@@ -104,53 +104,69 @@ namespace SampleCsEto.Views
         @"C:\Users\krahimzadeh\Documents\LocalDocs\AEC_Tech\03_SHADING\02_PANELS\SHD_PAN_STG01_Setout\SHD_PAN_STG01_Setout.gh"
       };
 
-      foreach (string filepath in filepaths)
-      {
-        boxes.Add(new TextBox() {Text = filepath});
-      }
-    }
-
-
-    internal async void RunFiles()
-    {
-
-      var io = new GH_DocumentIO();
-
-      foreach (TextBox box in boxes)
-      {
-        string filepath = box.Text;
-
-        io.Open(filepath);
-        var doc = io.Document;
-
-        if (doc == null) continue;
-        var color = box.BackgroundColor;
-
-        Application.Instance.Invoke(() =>
-          {
-            doc.Enabled = true;
-            doc.ExpireSolution();
-            box.BackgroundColor = Color.FromArgb(0, 30,120);
-          }
-        );
-
-        try
-        {
-          //await Task.Run(() => doc.NewSolution(true, GH_SolutionMode.Silent));
-
-          doc.NewSolution(true, GH_SolutionMode.Silent);
-        }
-        finally
-        {
-          Application.Instance.Invoke(() =>
-          {
-            box.BackgroundColor = Color.FromArgb(25, 100,10);
-          });
-
-          
+            foreach (string filepath in filepaths)
+            {
+                boxes.Add(new TextBox() { Text = filepath });
+            }
         }
 
-      }
+
+        internal async void RunFiles()
+        {
+
+            var io = new GH_DocumentIO();
+
+            var myServer = Grasshopper.Instances.DocumentServer;
+            if (myServer == null) return;
+
+
+            foreach (TextBox box in boxes)
+            {
+                string filepath = box.Text;
+
+                io.Open(filepath);
+                var ghDoc = io.Document;
+
+                if (ghDoc == null) continue;
+                var color = box.BackgroundColor;
+
+                Application.Instance.Invoke(() =>
+                  {
+                      ghDoc.Enabled = true;
+                      ghDoc.ExpireSolution();
+                      box.BackgroundColor = Color.FromArgb(0, 30, 120);
+                  }
+                );
+
+                if (ghDoc == null) continue;
+
+                myServer.AddDocument(ghDoc);
+                try
+                {
+                    if (Grasshopper.Instances.ActiveCanvas != null)
+                    {
+                        Grasshopper.Instances.ActiveCanvas.Document = ghDoc;
+                    }
+                }
+                catch { }
+
+                try
+                {
+                    //await Task.Run(() => doc.NewSolution(true, GH_SolutionMode.Silent));
+
+                    ghDoc.NewSolution(true, GH_SolutionMode.Silent);
+                }
+                finally
+                {
+                    Application.Instance.Invoke(() =>
+                    {
+                        box.BackgroundColor = Color.FromArgb(25, 100, 10);
+                    });
+
+
+                }
+
+            }
+        }
     }
-  }
 }
