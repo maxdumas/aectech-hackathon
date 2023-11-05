@@ -1,0 +1,9 @@
+C:\Users\Pat\aec-hackathon-2023\HelloRhinoCommon\HelloRhinoCommon\bin\Debug\net48\HelloRhinoCommon.rhp
+C:\Users\Pat\aec-hackathon-2023\HelloRhinoCommon\HelloRhinoCommon\bin\Debug\net48\HelloRhinoCommon.pdb
+C:\Users\Pat\aec-hackathon-2023\HelloRhinoCommon\HelloRhinoCommon\obj\Debug\net48\HelloRhinoCommon.csproj.AssemblyReference.cache
+C:\Users\Pat\aec-hackathon-2023\HelloRhinoCommon\HelloRhinoCommon\obj\Debug\net48\HelloRhinoCommon.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Pat\aec-hackathon-2023\HelloRhinoCommon\HelloRhinoCommon\obj\Debug\net48\HelloRhinoCommon.AssemblyInfoInputs.cache
+C:\Users\Pat\aec-hackathon-2023\HelloRhinoCommon\HelloRhinoCommon\obj\Debug\net48\HelloRhinoCommon.AssemblyInfo.cs
+C:\Users\Pat\aec-hackathon-2023\HelloRhinoCommon\HelloRhinoCommon\obj\Debug\net48\HelloRhinoCommon.csproj.CoreCompileInputs.cache
+C:\Users\Pat\aec-hackathon-2023\HelloRhinoCommon\HelloRhinoCommon\obj\Debug\net48\HelloRhinoCommon.rhp
+C:\Users\Pat\aec-hackathon-2023\HelloRhinoCommon\HelloRhinoCommon\obj\Debug\net48\HelloRhinoCommon.pdb
