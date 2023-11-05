@@ -1,0 +1,8 @@
+C:\Users\krahimzadeh\Source\Repos\keyan-r\rhino-developer-samples-cs\rhinocommon\cs\bin\SampleCsEto.dll
+C:\Users\krahimzadeh\Source\Repos\keyan-r\rhino-developer-samples-cs\rhinocommon\cs\bin\SampleCsEto.pdb
+C:\Users\krahimzadeh\Source\Repos\keyan-r\rhino-developer-samples-cs\rhinocommon\cs\SampleCsEto\obj\Debug\AllTheWayDown.csproj.AssemblyReference.cache
+C:\Users\krahimzadeh\Source\Repos\keyan-r\rhino-developer-samples-cs\rhinocommon\cs\SampleCsEto\obj\Debug\SampleCsEto.Properties.Resources.resources
+C:\Users\krahimzadeh\Source\Repos\keyan-r\rhino-developer-samples-cs\rhinocommon\cs\SampleCsEto\obj\Debug\AllTheWayDown.csproj.GenerateResource.cache
+C:\Users\krahimzadeh\Source\Repos\keyan-r\rhino-developer-samples-cs\rhinocommon\cs\SampleCsEto\obj\Debug\AllTheWayDown.csproj.CoreCompileInputs.cache
+C:\Users\krahimzadeh\Source\Repos\keyan-r\rhino-developer-samples-cs\rhinocommon\cs\SampleCsEto\obj\Debug\SampleCsEto.dll
+C:\Users\krahimzadeh\Source\Repos\keyan-r\rhino-developer-samples-cs\rhinocommon\cs\SampleCsEto\obj\Debug\SampleCsEto.pdb
