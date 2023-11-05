@@ -1,0 +1,500 @@
+{
+  "version": 3,
+  "targets": {
+    ".NETFramework,Version=v4.8": {
+      "Grasshopper/7.0.20314.3001": {
+        "type": "package",
+        "dependencies": {
+          "RhinoCommon": "[7.0.20314.3001]"
+        },
+        "compile": {
+          "lib/net45/GH_IO.dll": {
+            "related": ".XML"
+          },
+          "lib/net45/Grasshopper.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net45/_._": {
+            "related": ".XML"
+          }
+        },
+        "build": {
+          "build/_._": {}
+        }
+      },
+      "Rhino.Inside/7.0.0": {
+        "type": "package",
+        "dependencies": {
+          "Grasshopper": "7.0.20314.3001",
+          "RhinoCommon": "7.0.20314.3001",
+          "RhinoWindows": "7.0.20314.3001"
+        },
+        "compile": {
+          "lib/net48/RhinoInside.dll": {}
+        },
+        "runtime": {
+          "lib/net48/RhinoInside.dll": {}
+        }
+      },
+      "RhinoCommon/7.0.20314.3001": {
+        "type": "package",
+        "compile": {
+          "lib/net45/Eto.dll": {
+            "related": ".xml"
+          },
+          "lib/net45/Rhino.UI.dll": {},
+          "lib/net45/RhinoCommon.dll": {
+            "related": ".XML"
+          }
+        },
+        "runtime": {
+          "lib/net45/_._": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "build/_._": {}
+        }
+      },
+      "RhinoWindows/7.0.20314.3001": {
+        "type": "package",
+        "dependencies": {
+          "RhinoCommon": "[7.0.20314.3001]"
+        },
+        "compile": {
+          "lib/net45/Eto.Wpf.dll": {},
+          "lib/net45/RhinoWindows.dll": {}
+        },
+        "runtime": {
+          "lib/net45/_._": {}
+        },
+        "build": {
+          "build/_._": {}
+        }
+      }
+    },
+    ".NETFramework,Version=v4.8/win": {
+      "Grasshopper/7.0.20314.3001": {
+        "type": "package",
+        "dependencies": {
+          "RhinoCommon": "[7.0.20314.3001]"
+        },
+        "compile": {
+          "lib/net45/GH_IO.dll": {
+            "related": ".XML"
+          },
+          "lib/net45/Grasshopper.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net45/_._": {
+            "related": ".XML"
+          }
+        },
+        "build": {
+          "build/_._": {}
+        }
+      },
+      "Rhino.Inside/7.0.0": {
+        "type": "package",
+        "dependencies": {
+          "Grasshopper": "7.0.20314.3001",
+          "RhinoCommon": "7.0.20314.3001",
+          "RhinoWindows": "7.0.20314.3001"
+        },
+        "compile": {
+          "lib/net48/RhinoInside.dll": {}
+        },
+        "runtime": {
+          "lib/net48/RhinoInside.dll": {}
+        }
+      },
+      "RhinoCommon/7.0.20314.3001": {
+        "type": "package",
+        "compile": {
+          "lib/net45/Eto.dll": {
+            "related": ".xml"
+          },
+          "lib/net45/Rhino.UI.dll": {},
+          "lib/net45/RhinoCommon.dll": {
+            "related": ".XML"
+          }
+        },
+        "runtime": {
+          "lib/net45/_._": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "build/_._": {}
+        }
+      },
+      "RhinoWindows/7.0.20314.3001": {
+        "type": "package",
+        "dependencies": {
+          "RhinoCommon": "[7.0.20314.3001]"
+        },
+        "compile": {
+          "lib/net45/Eto.Wpf.dll": {},
+          "lib/net45/RhinoWindows.dll": {}
+        },
+        "runtime": {
+          "lib/net45/_._": {}
+        },
+        "build": {
+          "build/_._": {}
+        }
+      }
+    },
+    ".NETFramework,Version=v4.8/win-arm64": {
+      "Grasshopper/7.0.20314.3001": {
+        "type": "package",
+        "dependencies": {
+          "RhinoCommon": "[7.0.20314.3001]"
+        },
+        "compile": {
+          "lib/net45/GH_IO.dll": {
+            "related": ".XML"
+          },
+          "lib/net45/Grasshopper.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net45/_._": {
+            "related": ".XML"
+          }
+        },
+        "build": {
+          "build/_._": {}
+        }
+      },
+      "Rhino.Inside/7.0.0": {
+        "type": "package",
+        "dependencies": {
+          "Grasshopper": "7.0.20314.3001",
+          "RhinoCommon": "7.0.20314.3001",
+          "RhinoWindows": "7.0.20314.3001"
+        },
+        "compile": {
+          "lib/net48/RhinoInside.dll": {}
+        },
+        "runtime": {
+          "lib/net48/RhinoInside.dll": {}
+        }
+      },
+      "RhinoCommon/7.0.20314.3001": {
+        "type": "package",
+        "compile": {
+          "lib/net45/Eto.dll": {
+            "related": ".xml"
+          },
+          "lib/net45/Rhino.UI.dll": {},
+          "lib/net45/RhinoCommon.dll": {
+            "related": ".XML"
+          }
+        },
+        "runtime": {
+          "lib/net45/_._": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "build/_._": {}
+        }
+      },
+      "RhinoWindows/7.0.20314.3001": {
+        "type": "package",
+        "dependencies": {
+          "RhinoCommon": "[7.0.20314.3001]"
+        },
+        "compile": {
+          "lib/net45/Eto.Wpf.dll": {},
+          "lib/net45/RhinoWindows.dll": {}
+        },
+        "runtime": {
+          "lib/net45/_._": {}
+        },
+        "build": {
+          "build/_._": {}
+        }
+      }
+    },
+    ".NETFramework,Version=v4.8/win-x64": {
+      "Grasshopper/7.0.20314.3001": {
+        "type": "package",
+        "dependencies": {
+          "RhinoCommon": "[7.0.20314.3001]"
+        },
+        "compile": {
+          "lib/net45/GH_IO.dll": {
+            "related": ".XML"
+          },
+          "lib/net45/Grasshopper.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net45/_._": {
+            "related": ".XML"
+          }
+        },
+        "build": {
+          "build/_._": {}
+        }
+      },
+      "Rhino.Inside/7.0.0": {
+        "type": "package",
+        "dependencies": {
+          "Grasshopper": "7.0.20314.3001",
+          "RhinoCommon": "7.0.20314.3001",
+          "RhinoWindows": "7.0.20314.3001"
+        },
+        "compile": {
+          "lib/net48/RhinoInside.dll": {}
+        },
+        "runtime": {
+          "lib/net48/RhinoInside.dll": {}
+        }
+      },
+      "RhinoCommon/7.0.20314.3001": {
+        "type": "package",
+        "compile": {
+          "lib/net45/Eto.dll": {
+            "related": ".xml"
+          },
+          "lib/net45/Rhino.UI.dll": {},
+          "lib/net45/RhinoCommon.dll": {
+            "related": ".XML"
+          }
+        },
+        "runtime": {
+          "lib/net45/_._": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "build/_._": {}
+        }
+      },
+      "RhinoWindows/7.0.20314.3001": {
+        "type": "package",
+        "dependencies": {
+          "RhinoCommon": "[7.0.20314.3001]"
+        },
+        "compile": {
+          "lib/net45/Eto.Wpf.dll": {},
+          "lib/net45/RhinoWindows.dll": {}
+        },
+        "runtime": {
+          "lib/net45/_._": {}
+        },
+        "build": {
+          "build/_._": {}
+        }
+      }
+    },
+    ".NETFramework,Version=v4.8/win-x86": {
+      "Grasshopper/7.0.20314.3001": {
+        "type": "package",
+        "dependencies": {
+          "RhinoCommon": "[7.0.20314.3001]"
+        },
+        "compile": {
+          "lib/net45/GH_IO.dll": {
+            "related": ".XML"
+          },
+          "lib/net45/Grasshopper.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net45/_._": {
+            "related": ".XML"
+          }
+        },
+        "build": {
+          "build/_._": {}
+        }
+      },
+      "Rhino.Inside/7.0.0": {
+        "type": "package",
+        "dependencies": {
+          "Grasshopper": "7.0.20314.3001",
+          "RhinoCommon": "7.0.20314.3001",
+          "RhinoWindows": "7.0.20314.3001"
+        },
+        "compile": {
+          "lib/net48/RhinoInside.dll": {}
+        },
+        "runtime": {
+          "lib/net48/RhinoInside.dll": {}
+        }
+      },
+      "RhinoCommon/7.0.20314.3001": {
+        "type": "package",
+        "compile": {
+          "lib/net45/Eto.dll": {
+            "related": ".xml"
+          },
+          "lib/net45/Rhino.UI.dll": {},
+          "lib/net45/RhinoCommon.dll": {
+            "related": ".XML"
+          }
+        },
+        "runtime": {
+          "lib/net45/_._": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "build/_._": {}
+        }
+      },
+      "RhinoWindows/7.0.20314.3001": {
+        "type": "package",
+        "dependencies": {
+          "RhinoCommon": "[7.0.20314.3001]"
+        },
+        "compile": {
+          "lib/net45/Eto.Wpf.dll": {},
+          "lib/net45/RhinoWindows.dll": {}
+        },
+        "runtime": {
+          "lib/net45/_._": {}
+        },
+        "build": {
+          "build/_._": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Grasshopper/7.0.20314.3001": {
+      "sha512": "8/NnsEbu2sC45ndvXWwvzu7rzj02GHd3/GoPCtHcD6r2iLAIR2xefuyoKt7mpsKra3AQDPMAHoVEA7MYZo2Ecw==",
+      "type": "package",
+      "path": "grasshopper/7.0.20314.3001",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "build/Grasshopper.targets",
+        "grasshopper.7.0.20314.3001.nupkg.sha512",
+        "grasshopper.nuspec",
+        "grasshopper.png",
+        "lib/net45/GH_IO.XML",
+        "lib/net45/GH_IO.dll",
+        "lib/net45/Grasshopper.dll",
+        "lib/net45/Grasshopper.xml"
+      ]
+    },
+    "Rhino.Inside/7.0.0": {
+      "sha512": "vEbxNKKNazvKx/2EqaXVRjsYMRdbou+EK+NXAGnFc0hgW6TS0jgHlcvbao/hcNL7JTZME1lQ4dmp0djkvxdQaw==",
+      "type": "package",
+      "path": "rhino.inside/7.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net48/RhinoInside.dll",
+        "rhino.inside.7.0.0.nupkg.sha512",
+        "rhino.inside.nuspec"
+      ]
+    },
+    "RhinoCommon/7.0.20314.3001": {
+      "sha512": "uB4NfLaKkQYDLrwfw2YdERr1srOqigPO3d9QoQ5YwkcGB8rDdNhfNwQPW0alNJfTn0n77yGR0S+FSBgXNOfDhw==",
+      "type": "package",
+      "path": "rhinocommon/7.0.20314.3001",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Eto-LICENSE.txt",
+        "build/RhinoCommon.targets",
+        "lib/net45/Eto.dll",
+        "lib/net45/Eto.xml",
+        "lib/net45/Rhino.UI.dll",
+        "lib/net45/RhinoCommon.XML",
+        "lib/net45/RhinoCommon.dll",
+        "rhinocommon.7.0.20314.3001.nupkg.sha512",
+        "rhinocommon.nuspec",
+        "rhinocommon.png"
+      ]
+    },
+    "RhinoWindows/7.0.20314.3001": {
+      "sha512": "r1XgILtCURtjZb2tkCrz0xvzP7w9/yExtfJ06cwlyv7iHn7VB/i3m+68OBveGNCbw9JYIJzhuaMJw5Cv00KO2w==",
+      "type": "package",
+      "path": "rhinowindows/7.0.20314.3001",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Eto-LICENSE.txt",
+        "build/RhinoWindows.targets",
+        "lib/net45/Eto.Wpf.dll",
+        "lib/net45/RhinoWindows.dll",
+        "rhinowindows.7.0.20314.3001.nupkg.sha512",
+        "rhinowindows.nuspec"
+      ]
+    }
+  },
+  "projectFileDependencyGroups": {
+    ".NETFramework,Version=v4.8": [
+      "Rhino.Inside >= 7.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\krahimzadeh\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\krahimzadeh\\Downloads\\HelloWorld\\HelloWorld.csproj",
+      "projectName": "HelloWorld",
+      "projectPath": "C:\\Users\\krahimzadeh\\Downloads\\HelloWorld\\HelloWorld.csproj",
+      "packagesPath": "C:\\Users\\krahimzadeh\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\krahimzadeh\\Downloads\\HelloWorld\\obj\\",
+      "projectStyle": "PackageReference",
+      "skipContentFileWrite": true,
+      "configFilePaths": [
+        "C:\\Users\\krahimzadeh\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net48"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net48": {
+          "projectReferences": {}
+        }
+      }
+    },
+    "frameworks": {
+      "net48": {
+        "dependencies": {
+          "Rhino.Inside": {
+            "target": "Package",
+            "version": "[7.0.0, )"
+          }
+        }
+      }
+    },
+    "runtimes": {
+      "win": {
+        "#import": []
+      },
+      "win-arm64": {
+        "#import": []
+      },
+      "win-x64": {
+        "#import": []
+      },
+      "win-x86": {
+        "#import": []
+      }
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "SJaSR4doVzx8v4Bclicsiqx61XjxdUuO2KorHi8Voa7ujmFqevL7Jztp5Gs4F32uc4pU9/a/pPEKymnmRsAMVw==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\krahimzadeh\\Downloads\\HelloWorld\\HelloWorld.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\krahimzadeh\\.nuget\\packages\\grasshopper\\7.0.20314.3001\\grasshopper.7.0.20314.3001.nupkg.sha512",
+    "C:\\Users\\krahimzadeh\\.nuget\\packages\\rhino.inside\\7.0.0\\rhino.inside.7.0.0.nupkg.sha512",
+    "C:\\Users\\krahimzadeh\\.nuget\\packages\\rhinocommon\\7.0.20314.3001\\rhinocommon.7.0.20314.3001.nupkg.sha512",
+    "C:\\Users\\krahimzadeh\\.nuget\\packages\\rhinowindows\\7.0.20314.3001\\rhinowindows.7.0.20314.3001.nupkg.sha512"
+  ],
+  "logs": []
+}
