@@ -59,7 +59,7 @@
       // -------------- //
 
       // set the layout functions
-      const nodeRadius = 60;
+      const nodeRadius = 250;
       const nodeSize = [nodeRadius * 2, nodeRadius * 2];
       // this truncates the edges so we can render arrows nicely
       const shape = d3dag.tweakShape(nodeSize, d3dag.shapeEllipse);
@@ -67,7 +67,7 @@
       const line = d3.line().curve(d3.curveMonotoneY);
       // here's the layout operator, uncomment some of the settings
       const layout = d3dag
-        .grid()//.zherebko()  //.sugiyama()
+        .sugiyama()//.grid()//.zherebko()  //.sugiyama()
         //.layering(d3dag.layeringLongestPath())
         //.decross(d3dag.decrossOpt())
         //.coord(d3dag.coordGreedy())
@@ -182,7 +182,7 @@
         );
 
       // Arrows
-      const arrowSize = 10;
+      const arrowSize = 1;
       const arrowLen = Math.sqrt((4 * arrowSize) / Math.sqrt(3));
       const arrow = d3.symbol().type(d3.symbolTriangle).size(arrowSize);
       svg

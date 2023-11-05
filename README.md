@@ -14,6 +14,13 @@ This project sets out to Increase iteration time to design changes, better versi
 - [Tyce Herrman]() - Umal
 - [Max Dumas]() - Umal
 
+## Libraries
+
+- [Data Version Control](https://dvc.org/) - DVC
+- [Rhinocommon]() - Rhino
+- [Grasshopper]() - Grasshopper
+
+
 ## Installation
 
 ## How to use

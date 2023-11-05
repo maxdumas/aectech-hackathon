@@ -16,7 +16,7 @@ import re
 # """
 
 #read the content of the output.mmd file and store it in a String
-with open('output.mmd', 'r') as file:
+with open('../output.mmd', 'r') as file:
     mmd_content = file.read()
 
 
