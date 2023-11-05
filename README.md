@@ -1,101 +1,85 @@
-
-
-
-
-
-
 <h1 align="center">
   <br>
   AllTheWayDown
   <br>
 </h1>
 
-![image](https://github.com/maxdumas/aectech-hackathon/blob/main/Static/rhino-sculpture-brooklyn.webp)
+![Rhinos ATWD](/Static/stacked-rhinos-sculpture.png)
 
-<h4 align="center">Dependency management and version control for grasshopper graph.</h4>
+<h4 align="center">Dependency management and version control to link every phase of design.</h4>
 
 <p align="center">
   <a href="#why">Why AllTheWayDown?</a> •
   <a href="#key-features">Key Features</a> •
   <a href="#how-to-use">How To Use</a> •
-  <a href="#download">Download</a> •
   <a href="#credits">Credits</a> •
-  <a href="#related">Related</a> •
   <a href="#license">License</a>
 </p>
 
-![screenshot](https://raw.githubusercontent.com/amitmerchant1990/electron-markdownify/master/app/img/markdownify.gif)
+![screenshot]()
 
 ## AllTheWayDown
 
-AllTheWayDown (ATWD) allows for managing dependencies within design workflows. Initially, ATWD script graphs.  
+AllTheWayDown (ATWD) allows for managing dependencies within design workflows, which decreases length of time between design iterations, introduces Git-based version control, and eliminates discrepancies between different stages of design.  Initially, ATWD works for Grasshopper script graphs and Rhino models. Future iterations will expand to other design tools and data inputs.  
 
-This project sets out to increase iteration time to design changes, improve version control, and eliminate discrepancies between different stages of design. It was developed at the AEC Tech New York Hackathon 2023 hosted by Thornton Tomasetti CORE studio.
-
-The hackathon team included:
-- [Chau Nguyen]() - Foster and Partners
-- [Keyan Rahimzadeh]() - Front
-- [Patryk Wozniczka]() - 
-- [Nathan Barnes](https://www.azahner.com/) - Zahner
-- [Sarang Pramode](https://ulama.tech) - Ulama
-- [Tyce Herrman](https://ulama.tech) - Ulama
-- [Max Dumas](https://ulama.tech) - Ulama
+ATWD was developed at the AEC Tech New York Hackathon 2023 hosted by Thornton Tomasetti CORE studio. The hackathon team included:
+- [Chau Nguyen](https://github.com/minhchau1510) - [Foster + Partners](https://www.fosterandpartners.com)
+- [Keyan Rahimzadeh](https://github.com/keyan-r) - Front
+- [Patryk Wozniczka](https://github.com/patrykwoz) - 
+- [Nathan Barnes](https://github.com/nathan-barnes) - [Zahner](https://www.azahner.com/)
+- [Sarang Pramode](https://github.com/Sarang-Pramode) - [Ulama](https://ulama.tech)
+- [Tyce Herrman](https://github.com/TyceHerrman) - [Ulama](https://ulama.tech)
+- [Max Dumas](https://github.com/maxdumas) - [Ulama](https://ulama.tech)
 
 ## Key Features
 
-* Dependency Updates
+* Dependency Updates 🕸️
   - When you make changes to one or more Grasshopper scripts, any script dependencies will be updated upon.
-* Sync Scrolling
+* Version control 🚧
   - While you type, LivePreview will automatically scroll to the current location you're editing.
-* GitHub Flavored Markdown  
-* Syntax highlighting
-* [KaTeX](https://khan.github.io/KaTeX/) Support
-* Dark/Light mode
-* Toolbar for basic Markdown formatting
-* Supports multiple cursors
-* Save the Markdown preview as PDF
-* Emoji support in preview :tada:
-* App will keep alive in tray for quick usage
-* Full screen mode
-  - Write distraction free.
-* Cross platform
-  - Windows, macOS and Linux ready.
+* Dependency Graph Visualization 📈
+  - See your entire dependency graph and understand how changes are propagated through the graph.
+
 
 ## How To Use
 
-To clone and run this application, you'll need [Git](https://git-scm.com) installed on your computer. From your command line:
+To clone and run this application, you'll need [Git](https://git-scm.com) installed on your computer. You'll also need [Data Version Control](https://dvc.org/doc/install).
+
+From your command line:
 
 ```bash
 # Clone this repository
 $ git clone https://github.com/maxdumas/aectech-hackathon.git
 
-# Go into the repository
-$ cd aectech-hackathon
+# Navigate to directory
+cd aectech-hackathon
 
-# Install dependencies
-$ 
+# Create Mermaid diagram of DVC DAG with:
+$ dvc dag --mermaid > output.mmd
 
-# Run the app
-$ 
+# Navigate to GraphView directory
+
+cd GraphView
+
+# Run mermaid-to-D3-structure.py
+pdm run mermaid-to-D3-structure.py
+
+# Start local http server within the GraphView directory (for >Python3)
+python -m http.server 5000
+
 ```
-
-
-
-
-
 
 
 ## Credits
 
 This software uses the following open source packages:
 
-- [Data Version Control](https://dvc.org/) - DVC
+- [Data Version Control](https://dvc.org/)
 
 It also uses
 
-- [Rhinocommon]() - Rhino
-- [Grasshopper]() - Grasshopper
-
+- [Rhinocommon](https://www.rhino3d.com)
+- [Grasshopper](https://www.grasshopper3d.com)
 
 
 
