@@ -8,3 +8,14 @@ C:\Users\krahimzadeh\Downloads\HelloWorld\obj\x64\Debug\HelloWorld.csproj.CoreCo
 C:\Users\krahimzadeh\Downloads\HelloWorld\obj\x64\Debug\HelloWorld.csproj.CopyComplete
 C:\Users\krahimzadeh\Downloads\HelloWorld\obj\x64\Debug\HelloWorld.exe
 C:\Users\krahimzadeh\Downloads\HelloWorld\obj\x64\Debug\HelloWorld.pdb
+C:\Users\krahimzadeh\OneDrive - Grimshaw Architects\Documents\GitHub\aectech-hackathon\RhinoRunner\bin\x64\Debug\HelloWorld.exe.config
+C:\Users\krahimzadeh\OneDrive - Grimshaw Architects\Documents\GitHub\aectech-hackathon\RhinoRunner\bin\x64\Debug\HelloWorld.exe
+C:\Users\krahimzadeh\OneDrive - Grimshaw Architects\Documents\GitHub\aectech-hackathon\RhinoRunner\bin\x64\Debug\HelloWorld.pdb
+C:\Users\krahimzadeh\OneDrive - Grimshaw Architects\Documents\GitHub\aectech-hackathon\RhinoRunner\bin\x64\Debug\RhinoInside.dll
+C:\Users\krahimzadeh\OneDrive - Grimshaw Architects\Documents\GitHub\aectech-hackathon\RhinoRunner\obj\x64\Debug\HelloWorld.csproj.AssemblyReference.cache
+C:\Users\krahimzadeh\OneDrive - Grimshaw Architects\Documents\GitHub\aectech-hackathon\RhinoRunner\obj\x64\Debug\HelloWorld.csproj.SuggestedBindingRedirects.cache
+C:\Users\krahimzadeh\OneDrive - Grimshaw Architects\Documents\GitHub\aectech-hackathon\RhinoRunner\obj\x64\Debug\HelloWorld.csproj.CoreCompileInputs.cache
+C:\Users\krahimzadeh\OneDrive - Grimshaw Architects\Documents\GitHub\aectech-hackathon\RhinoRunner\obj\x64\Debug\HelloWorld.csproj.CopyComplete
+C:\Users\krahimzadeh\OneDrive - Grimshaw Architects\Documents\GitHub\aectech-hackathon\RhinoRunner\obj\x64\Debug\HelloWorld.exe
+C:\Users\krahimzadeh\OneDrive - Grimshaw Architects\Documents\GitHub\aectech-hackathon\RhinoRunner\obj\x64\Debug\HelloWorld.pdb
+C:\Users\krahimzadeh\OneDrive - Grimshaw Architects\Documents\GitHub\aectech-hackathon\RhinoRunner\obj\x64\Debug\HelloWorld.exe.config

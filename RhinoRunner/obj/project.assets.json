@@ -2,26 +2,29 @@
   "version": 3,
   "targets": {
     ".NETFramework,Version=v4.8": {
-      "Grasshopper/7.0.20314.3001": {
+      "Grasshopper/7.25.22326.19001": {
         "type": "package",
         "dependencies": {
-          "RhinoCommon": "[7.0.20314.3001]"
+          "RhinoCommon": "[7.25.22326.19001]"
         },
         "compile": {
-          "lib/net45/GH_IO.dll": {
+          "lib/net48/GH_IO.dll": {
             "related": ".XML"
           },
-          "lib/net45/Grasshopper.dll": {
+          "lib/net48/Grasshopper.dll": {
             "related": ".xml"
           }
         },
         "runtime": {
-          "lib/net45/_._": {
+          "lib/net48/GH_IO.dll": {
             "related": ".XML"
+          },
+          "lib/net48/Grasshopper.dll": {
+            "related": ".xml"
           }
         },
         "build": {
-          "build/_._": {}
+          "build/net48/Grasshopper.targets": {}
         }
       },
       "Rhino.Inside/7.0.0": {
@@ -38,24 +41,28 @@
           "lib/net48/RhinoInside.dll": {}
         }
       },
-      "RhinoCommon/7.0.20314.3001": {
+      "RhinoCommon/7.25.22326.19001": {
         "type": "package",
         "compile": {
-          "lib/net45/Eto.dll": {
+          "lib/net48/Eto.dll": {
             "related": ".xml"
           },
-          "lib/net45/Rhino.UI.dll": {},
-          "lib/net45/RhinoCommon.dll": {
+          "lib/net48/Rhino.UI.dll": {},
+          "lib/net48/RhinoCommon.dll": {
             "related": ".XML"
           }
         },
         "runtime": {
-          "lib/net45/_._": {
+          "lib/net48/Eto.dll": {
             "related": ".xml"
+          },
+          "lib/net48/Rhino.UI.dll": {},
+          "lib/net48/RhinoCommon.dll": {
+            "related": ".XML"
           }
         },
         "build": {
-          "build/_._": {}
+          "build/net48/RhinoCommon.targets": {}
         }
       },
       "RhinoWindows/7.0.20314.3001": {
@@ -76,26 +83,29 @@
       }
     },
     ".NETFramework,Version=v4.8/win": {
-      "Grasshopper/7.0.20314.3001": {
+      "Grasshopper/7.25.22326.19001": {
         "type": "package",
         "dependencies": {
-          "RhinoCommon": "[7.0.20314.3001]"
+          "RhinoCommon": "[7.25.22326.19001]"
         },
         "compile": {
-          "lib/net45/GH_IO.dll": {
+          "lib/net48/GH_IO.dll": {
             "related": ".XML"
           },
-          "lib/net45/Grasshopper.dll": {
+          "lib/net48/Grasshopper.dll": {
             "related": ".xml"
           }
         },
         "runtime": {
-          "lib/net45/_._": {
+          "lib/net48/GH_IO.dll": {
             "related": ".XML"
+          },
+          "lib/net48/Grasshopper.dll": {
+            "related": ".xml"
           }
         },
         "build": {
-          "build/_._": {}
+          "build/net48/Grasshopper.targets": {}
         }
       },
       "Rhino.Inside/7.0.0": {
@@ -112,24 +122,28 @@
           "lib/net48/RhinoInside.dll": {}
         }
       },
-      "RhinoCommon/7.0.20314.3001": {
+      "RhinoCommon/7.25.22326.19001": {
         "type": "package",
         "compile": {
-          "lib/net45/Eto.dll": {
+          "lib/net48/Eto.dll": {
             "related": ".xml"
           },
-          "lib/net45/Rhino.UI.dll": {},
-          "lib/net45/RhinoCommon.dll": {
+          "lib/net48/Rhino.UI.dll": {},
+          "lib/net48/RhinoCommon.dll": {
             "related": ".XML"
           }
         },
         "runtime": {
-          "lib/net45/_._": {
+          "lib/net48/Eto.dll": {
             "related": ".xml"
+          },
+          "lib/net48/Rhino.UI.dll": {},
+          "lib/net48/RhinoCommon.dll": {
+            "related": ".XML"
           }
         },
         "build": {
-          "build/_._": {}
+          "build/net48/RhinoCommon.targets": {}
         }
       },
       "RhinoWindows/7.0.20314.3001": {
@@ -150,26 +164,29 @@
       }
     },
     ".NETFramework,Version=v4.8/win-arm64": {
-      "Grasshopper/7.0.20314.3001": {
+      "Grasshopper/7.25.22326.19001": {
         "type": "package",
         "dependencies": {
-          "RhinoCommon": "[7.0.20314.3001]"
+          "RhinoCommon": "[7.25.22326.19001]"
         },
         "compile": {
-          "lib/net45/GH_IO.dll": {
+          "lib/net48/GH_IO.dll": {
             "related": ".XML"
           },
-          "lib/net45/Grasshopper.dll": {
+          "lib/net48/Grasshopper.dll": {
             "related": ".xml"
           }
         },
         "runtime": {
-          "lib/net45/_._": {
+          "lib/net48/GH_IO.dll": {
             "related": ".XML"
+          },
+          "lib/net48/Grasshopper.dll": {
+            "related": ".xml"
           }
         },
         "build": {
-          "build/_._": {}
+          "build/net48/Grasshopper.targets": {}
         }
       },
       "Rhino.Inside/7.0.0": {
@@ -186,24 +203,28 @@
           "lib/net48/RhinoInside.dll": {}
         }
       },
-      "RhinoCommon/7.0.20314.3001": {
+      "RhinoCommon/7.25.22326.19001": {
         "type": "package",
         "compile": {
-          "lib/net45/Eto.dll": {
+          "lib/net48/Eto.dll": {
             "related": ".xml"
           },
-          "lib/net45/Rhino.UI.dll": {},
-          "lib/net45/RhinoCommon.dll": {
+          "lib/net48/Rhino.UI.dll": {},
+          "lib/net48/RhinoCommon.dll": {
             "related": ".XML"
           }
         },
         "runtime": {
-          "lib/net45/_._": {
+          "lib/net48/Eto.dll": {
             "related": ".xml"
+          },
+          "lib/net48/Rhino.UI.dll": {},
+          "lib/net48/RhinoCommon.dll": {
+            "related": ".XML"
           }
         },
         "build": {
-          "build/_._": {}
+          "build/net48/RhinoCommon.targets": {}
         }
       },
       "RhinoWindows/7.0.20314.3001": {
@@ -224,26 +245,29 @@
       }
     },
     ".NETFramework,Version=v4.8/win-x64": {
-      "Grasshopper/7.0.20314.3001": {
+      "Grasshopper/7.25.22326.19001": {
         "type": "package",
         "dependencies": {
-          "RhinoCommon": "[7.0.20314.3001]"
+          "RhinoCommon": "[7.25.22326.19001]"
         },
         "compile": {
-          "lib/net45/GH_IO.dll": {
+          "lib/net48/GH_IO.dll": {
             "related": ".XML"
           },
-          "lib/net45/Grasshopper.dll": {
+          "lib/net48/Grasshopper.dll": {
             "related": ".xml"
           }
         },
         "runtime": {
-          "lib/net45/_._": {
+          "lib/net48/GH_IO.dll": {
             "related": ".XML"
+          },
+          "lib/net48/Grasshopper.dll": {
+            "related": ".xml"
           }
         },
         "build": {
-          "build/_._": {}
+          "build/net48/Grasshopper.targets": {}
         }
       },
       "Rhino.Inside/7.0.0": {
@@ -260,24 +284,28 @@
           "lib/net48/RhinoInside.dll": {}
         }
       },
-      "RhinoCommon/7.0.20314.3001": {
+      "RhinoCommon/7.25.22326.19001": {
         "type": "package",
         "compile": {
-          "lib/net45/Eto.dll": {
+          "lib/net48/Eto.dll": {
             "related": ".xml"
           },
-          "lib/net45/Rhino.UI.dll": {},
-          "lib/net45/RhinoCommon.dll": {
+          "lib/net48/Rhino.UI.dll": {},
+          "lib/net48/RhinoCommon.dll": {
             "related": ".XML"
           }
         },
         "runtime": {
-          "lib/net45/_._": {
+          "lib/net48/Eto.dll": {
             "related": ".xml"
+          },
+          "lib/net48/Rhino.UI.dll": {},
+          "lib/net48/RhinoCommon.dll": {
+            "related": ".XML"
           }
         },
         "build": {
-          "build/_._": {}
+          "build/net48/RhinoCommon.targets": {}
         }
       },
       "RhinoWindows/7.0.20314.3001": {
@@ -298,26 +326,29 @@
       }
     },
     ".NETFramework,Version=v4.8/win-x86": {
-      "Grasshopper/7.0.20314.3001": {
+      "Grasshopper/7.25.22326.19001": {
         "type": "package",
         "dependencies": {
-          "RhinoCommon": "[7.0.20314.3001]"
+          "RhinoCommon": "[7.25.22326.19001]"
         },
         "compile": {
-          "lib/net45/GH_IO.dll": {
+          "lib/net48/GH_IO.dll": {
             "related": ".XML"
           },
-          "lib/net45/Grasshopper.dll": {
+          "lib/net48/Grasshopper.dll": {
             "related": ".xml"
           }
         },
         "runtime": {
-          "lib/net45/_._": {
+          "lib/net48/GH_IO.dll": {
             "related": ".XML"
+          },
+          "lib/net48/Grasshopper.dll": {
+            "related": ".xml"
           }
         },
         "build": {
-          "build/_._": {}
+          "build/net48/Grasshopper.targets": {}
         }
       },
       "Rhino.Inside/7.0.0": {
@@ -334,24 +365,28 @@
           "lib/net48/RhinoInside.dll": {}
         }
       },
-      "RhinoCommon/7.0.20314.3001": {
+      "RhinoCommon/7.25.22326.19001": {
         "type": "package",
         "compile": {
-          "lib/net45/Eto.dll": {
+          "lib/net48/Eto.dll": {
             "related": ".xml"
           },
-          "lib/net45/Rhino.UI.dll": {},
-          "lib/net45/RhinoCommon.dll": {
+          "lib/net48/Rhino.UI.dll": {},
+          "lib/net48/RhinoCommon.dll": {
             "related": ".XML"
           }
         },
         "runtime": {
-          "lib/net45/_._": {
+          "lib/net48/Eto.dll": {
             "related": ".xml"
+          },
+          "lib/net48/Rhino.UI.dll": {},
+          "lib/net48/RhinoCommon.dll": {
+            "related": ".XML"
           }
         },
         "build": {
-          "build/_._": {}
+          "build/net48/RhinoCommon.targets": {}
         }
       },
       "RhinoWindows/7.0.20314.3001": {
@@ -373,21 +408,21 @@
     }
   },
   "libraries": {
-    "Grasshopper/7.0.20314.3001": {
-      "sha512": "8/NnsEbu2sC45ndvXWwvzu7rzj02GHd3/GoPCtHcD6r2iLAIR2xefuyoKt7mpsKra3AQDPMAHoVEA7MYZo2Ecw==",
+    "Grasshopper/7.25.22326.19001": {
+      "sha512": "cFV8i6/21kR3wHHsNsjTIVQ08eufgRKSDZTQyFaYCCX4S0YdT4k4sWTmZed+qonBQ3bYQDV6Uw7s5py3qkQezg==",
       "type": "package",
-      "path": "grasshopper/7.0.20314.3001",
+      "path": "grasshopper/7.25.22326.19001",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
-        "build/Grasshopper.targets",
-        "grasshopper.7.0.20314.3001.nupkg.sha512",
+        "build/net48/Grasshopper.targets",
+        "grasshopper.7.25.22326.19001.nupkg.sha512",
         "grasshopper.nuspec",
         "grasshopper.png",
-        "lib/net45/GH_IO.XML",
-        "lib/net45/GH_IO.dll",
-        "lib/net45/Grasshopper.dll",
-        "lib/net45/Grasshopper.xml"
+        "lib/net48/GH_IO.XML",
+        "lib/net48/GH_IO.dll",
+        "lib/net48/Grasshopper.dll",
+        "lib/net48/Grasshopper.xml"
       ]
     },
     "Rhino.Inside/7.0.0": {
@@ -402,21 +437,21 @@
         "rhino.inside.nuspec"
       ]
     },
-    "RhinoCommon/7.0.20314.3001": {
-      "sha512": "uB4NfLaKkQYDLrwfw2YdERr1srOqigPO3d9QoQ5YwkcGB8rDdNhfNwQPW0alNJfTn0n77yGR0S+FSBgXNOfDhw==",
+    "RhinoCommon/7.25.22326.19001": {
+      "sha512": "Z9znI3hYLGj74uesa8EwuEn7SLiyMiXZ8/WRa/mdyjH8fx2fJws7xY76wYt5Gk85Sw9fzw3wPTdtauY9fE8YOg==",
       "type": "package",
-      "path": "rhinocommon/7.0.20314.3001",
+      "path": "rhinocommon/7.25.22326.19001",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "Eto-LICENSE.txt",
-        "build/RhinoCommon.targets",
-        "lib/net45/Eto.dll",
-        "lib/net45/Eto.xml",
-        "lib/net45/Rhino.UI.dll",
-        "lib/net45/RhinoCommon.XML",
-        "lib/net45/RhinoCommon.dll",
-        "rhinocommon.7.0.20314.3001.nupkg.sha512",
+        "build/net48/RhinoCommon.targets",
+        "lib/net48/Eto.dll",
+        "lib/net48/Eto.xml",
+        "lib/net48/Rhino.UI.dll",
+        "lib/net48/RhinoCommon.XML",
+        "lib/net48/RhinoCommon.dll",
+        "rhinocommon.7.25.22326.19001.nupkg.sha512",
         "rhinocommon.nuspec",
         "rhinocommon.png"
       ]
@@ -439,7 +474,9 @@
   },
   "projectFileDependencyGroups": {
     ".NETFramework,Version=v4.8": [
-      "Rhino.Inside >= 7.0.0"
+      "Grasshopper >= 7.25.22326.19001",
+      "Rhino.Inside >= 7.0.0",
+      "RhinoCommon >= 7.25.22326.19001"
     ]
   },
   "packageFolders": {
@@ -448,11 +485,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\krahimzadeh\\Downloads\\HelloWorld\\HelloWorld.csproj",
+      "projectUniqueName": "C:\\Users\\krahimzadeh\\OneDrive - Grimshaw Architects\\Documents\\GitHub\\aectech-hackathon\\RhinoRunner\\HelloWorld.csproj",
       "projectName": "HelloWorld",
-      "projectPath": "C:\\Users\\krahimzadeh\\Downloads\\HelloWorld\\HelloWorld.csproj",
+      "projectPath": "C:\\Users\\krahimzadeh\\OneDrive - Grimshaw Architects\\Documents\\GitHub\\aectech-hackathon\\RhinoRunner\\HelloWorld.csproj",
       "packagesPath": "C:\\Users\\krahimzadeh\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\krahimzadeh\\Downloads\\HelloWorld\\obj\\",
+      "outputPath": "C:\\Users\\krahimzadeh\\OneDrive - Grimshaw Architects\\Documents\\GitHub\\aectech-hackathon\\RhinoRunner\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "configFilePaths": [
@@ -475,9 +512,17 @@
     "frameworks": {
       "net48": {
         "dependencies": {
+          "Grasshopper": {
+            "target": "Package",
+            "version": "[7.25.22326.19001, )"
+          },
           "Rhino.Inside": {
             "target": "Package",
             "version": "[7.0.0, )"
+          },
+          "RhinoCommon": {
+            "target": "Package",
+            "version": "[7.25.22326.19001, )"
           }
         }
       }
@@ -496,5 +541,21 @@
         "#import": []
       }
     }
-  }
+  },
+  "logs": [
+    {
+      "code": "NU1608",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Detected package version outside of dependency constraint: RhinoWindows 7.0.20314.3001 requires RhinoCommon (= 7.0.20314.3001) but version RhinoCommon 7.25.22326.19001 was resolved.",
+      "libraryId": "RhinoCommon",
+      "targetGraphs": [
+        ".NETFramework,Version=v4.8",
+        ".NETFramework,Version=v4.8/win",
+        ".NETFramework,Version=v4.8/win-arm64",
+        ".NETFramework,Version=v4.8/win-x64",
+        ".NETFramework,Version=v4.8/win-x86"
+      ]
+    }
+  ]
 }

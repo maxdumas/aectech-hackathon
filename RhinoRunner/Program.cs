@@ -1,4 +1,5 @@
 using System;
+using System.Runtime.InteropServices;
 using Rhino.Runtime.InProcess;
 using Rhino.Geometry;
 
@@ -15,6 +16,7 @@ namespace HelloWorld
     #endregion
 
     [System.STAThread]
+    
     static void Main(string[] args)
     {
       try
@@ -24,6 +26,18 @@ namespace HelloWorld
           MeshABrep();
           Console.WriteLine("press any key to exit");
           Console.ReadKey();
+
+          try
+          {
+              GH_Utilies.LoadGrasshopperDoc(
+                            @"C:\Users\krahimzadeh\Documents\LocalDocs\AEC_Tech\00_REFERENCE\REF_FLOORS\REF_FLOORS.gh");
+                    }
+          finally
+          {
+
+          }
+          //Grasshopper.Instances
+
         }
       }
       catch (Exception ex)
