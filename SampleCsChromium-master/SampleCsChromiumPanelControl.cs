@@ -35,7 +35,7 @@ namespace SampleCsChromium
 
         private void InitializeBrowser()
         {
-            Cef.EnableHighDPISupport();
+            //Cef.EnableHighDPISupport();
 
             string assemblyLocation = Assembly.GetExecutingAssembly().Location;
             string assemblyPath = Path.GetDirectoryName(assemblyLocation);
@@ -52,7 +52,7 @@ namespace SampleCsChromium
 
             Cef.Initialize(settings);
 
-            m_browser = new ChromiumWebBrowser("http://www.rhino3d.com/");
+            m_browser = new ChromiumWebBrowser("https://aec-tech-rhinopage.streamlit.app/");
             Controls.Add(m_browser);
             m_browser.Dock = DockStyle.Fill;
             m_browser.Enabled = true;
