@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "BUHFcGge7PlssI3KjdCxpV8kSG7cE5Np+WHPnoT8gqcAs5AeeidXV6tskOIiBJ8HKRVnskPXrmE06F+rPfJDRg==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Pat\\aec-hackathon-2023\\aectech-hackathon\\DvcRhinoPlugin\\DvcRhinoPlugin\\DvcRhinoPlugin.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Pat\\.nuget\\packages\\grasshopper\\7.34.23267.11001\\grasshopper.7.34.23267.11001.nupkg.sha512",
+    "C:\\Users\\Pat\\.nuget\\packages\\rhinocommon\\7.34.23267.11001\\rhinocommon.7.34.23267.11001.nupkg.sha512",
+    "C:\\Users\\Pat\\.nuget\\packages\\yamldotnet\\13.7.1\\yamldotnet.13.7.1.nupkg.sha512"
+  ],
+  "logs": []
+}
