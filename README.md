@@ -39,7 +39,7 @@ ATWD was developed at the AEC Tech New York Hackathon 2023 hosted by Thornton To
   - While you type, LivePreview will automatically scroll to the current location you're editing.
 * Dependency Graph Visualization 📈
   - See your entire dependency graph and understand how changes are propagated through the graph.
-  ![graph](/GraphView%20Image.png)
+  ![graph](https://github.com/maxdumas/aectech-hackathon/blob/3d5c470ab543bf1c92de90c93ef8af67afe88dfd/GraphView%20Image.png)
 
 
 ## How To Use
