@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Pat\\aec-hackathon-2023\\DvcRhinoPlugin\\DvcRhinoPlugin\\DvcRhinoPlugin.csproj": {}
+    "C:\\Users\\Pat\\aec-hackathon-2023\\aectech-hackathon\\DvcRhinoPlugin\\DvcRhinoPlugin\\DvcRhinoPlugin.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Pat\\aec-hackathon-2023\\DvcRhinoPlugin\\DvcRhinoPlugin\\DvcRhinoPlugin.csproj": {
+    "C:\\Users\\Pat\\aec-hackathon-2023\\aectech-hackathon\\DvcRhinoPlugin\\DvcRhinoPlugin\\DvcRhinoPlugin.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Pat\\aec-hackathon-2023\\DvcRhinoPlugin\\DvcRhinoPlugin\\DvcRhinoPlugin.csproj",
+        "projectUniqueName": "C:\\Users\\Pat\\aec-hackathon-2023\\aectech-hackathon\\DvcRhinoPlugin\\DvcRhinoPlugin\\DvcRhinoPlugin.csproj",
         "projectName": "DvcRhinoPlugin",
-        "projectPath": "C:\\Users\\Pat\\aec-hackathon-2023\\DvcRhinoPlugin\\DvcRhinoPlugin\\DvcRhinoPlugin.csproj",
+        "projectPath": "C:\\Users\\Pat\\aec-hackathon-2023\\aectech-hackathon\\DvcRhinoPlugin\\DvcRhinoPlugin\\DvcRhinoPlugin.csproj",
         "packagesPath": "C:\\Users\\Pat\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Pat\\aec-hackathon-2023\\DvcRhinoPlugin\\DvcRhinoPlugin\\obj\\",
+        "outputPath": "C:\\Users\\Pat\\aec-hackathon-2023\\aectech-hackathon\\DvcRhinoPlugin\\DvcRhinoPlugin\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

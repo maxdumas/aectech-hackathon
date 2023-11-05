@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Ri6M7+aKnMaAimJwsRjVhu4GzaGHxsuSRbOap/ov3QG4bkgENUbk77kxLeweLvDmqCWIB7ASJXhM6s6GWYaggw==",
+  "dgSpecHash": "zy9Gwn7+2D5Zgj0Fa54YY5mlIhYPoj2SbzRxcA4jW5w7ntEnJCUk9b/Ynvd6bMhuoUBabdGViyELMh2xr5xJ6w==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Pat\\aec-hackathon-2023\\DvcRhinoPlugin\\DvcRhinoPlugin\\DvcRhinoPlugin.csproj",
+  "projectFilePath": "C:\\Users\\Pat\\aec-hackathon-2023\\aectech-hackathon\\DvcRhinoPlugin\\DvcRhinoPlugin\\DvcRhinoPlugin.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Pat\\.nuget\\packages\\rhinocommon\\7.13.21348.13001\\rhinocommon.7.13.21348.13001.nupkg.sha512"
   ],
