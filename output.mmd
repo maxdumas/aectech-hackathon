@@ -1,0 +1,16 @@
+flowchart TD
+	node1["01_ENVELOPE-ENV_STG01_MASSING"]
+	node2["01_ENVELOPE-ENV_STG02_LEVELS"]
+	node3["01_REFERENCE-REF_FLOORS"]
+	node4["02_PANELS-01_WF-PAN_WF_STG01_Joints"]
+	node5["project/00_REFERENCE/REF_FLOORS/REF_FLOORS.gh.dvc"]
+	node6["project/01_ENVELOPE/ENV_STG01_MASSING/ENV_STG01_Massing.gh.dvc"]
+	node7["project/01_ENVELOPE/ENV_STG02_LEVELS/ENV_STG02_LEVELS.gh.dvc"]
+	node8["project/02_PANELS/01_WF/PAN_WF_STG01_Joints/PAN_WF_STG01_Joints.gh.dvc"]
+	node1-->node2
+	node2-->node4
+	node3-->node2
+	node5-->node
+	node6-->node1
+	node7-->node2
+	node8-->node4
