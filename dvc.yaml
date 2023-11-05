@@ -1,6 +1,6 @@
 stages:
   01_REFERENCE-REF_FLOORS:
-    cmd: TODO
+    cmd: RhinoRunner.exe -File project/01_REFERENCE/REF_FLOORS/REF_FLOORS.3dm
     deps:
     - project/01_REFERENCE/REF_FLOORS/REF_FLOORS.gh
     outs:

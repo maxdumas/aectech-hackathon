@@ -1,0 +1,17 @@
+/Users/tyceherrman/Documents/GitHub/aectech-hackathon/crawler/bin/Debug/net7.0/crawler
+/Users/tyceherrman/Documents/GitHub/aectech-hackathon/crawler/bin/Debug/net7.0/crawler.deps.json
+/Users/tyceherrman/Documents/GitHub/aectech-hackathon/crawler/bin/Debug/net7.0/crawler.runtimeconfig.json
+/Users/tyceherrman/Documents/GitHub/aectech-hackathon/crawler/bin/Debug/net7.0/crawler.dll
+/Users/tyceherrman/Documents/GitHub/aectech-hackathon/crawler/bin/Debug/net7.0/crawler.pdb
+/Users/tyceherrman/Documents/GitHub/aectech-hackathon/crawler/obj/Debug/net7.0/crawler.GeneratedMSBuildEditorConfig.editorconfig
+/Users/tyceherrman/Documents/GitHub/aectech-hackathon/crawler/obj/Debug/net7.0/crawler.AssemblyInfoInputs.cache
+/Users/tyceherrman/Documents/GitHub/aectech-hackathon/crawler/obj/Debug/net7.0/crawler.AssemblyInfo.cs
+/Users/tyceherrman/Documents/GitHub/aectech-hackathon/crawler/obj/Debug/net7.0/crawler.csproj.CoreCompileInputs.cache
+/Users/tyceherrman/Documents/GitHub/aectech-hackathon/crawler/obj/Debug/net7.0/crawler.dll
+/Users/tyceherrman/Documents/GitHub/aectech-hackathon/crawler/obj/Debug/net7.0/refint/crawler.dll
+/Users/tyceherrman/Documents/GitHub/aectech-hackathon/crawler/obj/Debug/net7.0/crawler.pdb
+/Users/tyceherrman/Documents/GitHub/aectech-hackathon/crawler/obj/Debug/net7.0/crawler.genruntimeconfig.cache
+/Users/tyceherrman/Documents/GitHub/aectech-hackathon/crawler/obj/Debug/net7.0/ref/crawler.dll
+/Users/tyceherrman/Documents/GitHub/aectech-hackathon/crawler/bin/Debug/net7.0/YamlDotNet.dll
+/Users/tyceherrman/Documents/GitHub/aectech-hackathon/crawler/obj/Debug/net7.0/crawler.csproj.AssemblyReference.cache
+/Users/tyceherrman/Documents/GitHub/aectech-hackathon/crawler/obj/Debug/net7.0/crawler.csproj.CopyComplete

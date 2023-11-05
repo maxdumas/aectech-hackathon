@@ -1,0 +1,67 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/tyceherrman/Documents/GitHub/aectech-hackathon/crawler/crawler.csproj": {}
+  },
+  "projects": {
+    "/Users/tyceherrman/Documents/GitHub/aectech-hackathon/crawler/crawler.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/tyceherrman/Documents/GitHub/aectech-hackathon/crawler/crawler.csproj",
+        "projectName": "crawler",
+        "projectPath": "/Users/tyceherrman/Documents/GitHub/aectech-hackathon/crawler/crawler.csproj",
+        "packagesPath": "/Users/tyceherrman/.nuget/packages/",
+        "outputPath": "/Users/tyceherrman/Documents/GitHub/aectech-hackathon/crawler/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/tyceherrman/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "YamlDotNet": {
+              "target": "Package",
+              "version": "[13.7.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.403/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

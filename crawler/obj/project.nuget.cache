@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "zJBp4B0wW2UHdgpawrfrDdKujKWu7kkYFhYpbTYO6sRttlm10nDS83+z1V/DC/QQM0bxTEB7EAXLiUHWPQwcbA==",
+  "success": true,
+  "projectFilePath": "/Users/tyceherrman/Documents/GitHub/aectech-hackathon/crawler/crawler.csproj",
+  "expectedPackageFiles": [
+    "/Users/tyceherrman/.nuget/packages/yamldotnet/13.7.1/yamldotnet.13.7.1.nupkg.sha512"
+  ],
+  "logs": []
+}
