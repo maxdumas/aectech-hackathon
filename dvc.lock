@@ -1,0 +1,64 @@
+schema: '2.0'
+stages:
+  01_REFERENCE-REF_FLOORS:
+    cmd: touch project/00_REFERENCE/REF_FLOORS/REF_FLOORS.3dm && echo project/00_REFERENCE/REF_FLOORS/REF_FLOORS.gh
+    deps:
+    - path: project/00_REFERENCE/REF_FLOORS/REF_FLOORS.gh
+      hash: md5
+      md5: 0383d00686fe7359db8e977936469dfd
+      size: 26164
+    outs:
+    - path: project/00_REFERENCE/REF_FLOORS/REF_FLOORS.3dm
+      hash: md5
+      md5: d41d8cd98f00b204e9800998ecf8427e
+      size: 0
+  01_ENVELOPE-ENV_STG01_MASSING:
+    cmd: touch project/01_ENVELOPE/ENV_STG01_MASSING/ENV_STG01_Massing.3dm && echo
+      project/01_ENVELOPE/ENV_STG01_MASSING/ENV_STG01_MASSING.gh
+    deps:
+    - path: project/01_ENVELOPE/ENV_STG01_MASSING/ENV_STG01_Massing.gh
+      hash: md5
+      md5: e11d91a327f0c7c3f308f55f639d54d8
+      size: 5576
+    outs:
+    - path: project/01_ENVELOPE/ENV_STG01_MASSING/ENV_STG01_Massing.3dm
+      hash: md5
+      md5: d41d8cd98f00b204e9800998ecf8427e
+      size: 0
+  01_ENVELOPE-ENV_STG02_LEVELS:
+    cmd: touch project/01_ENVELOPE/ENV_STG02_LEVELS/ENV_STG02_LEVELS.3dm && echo project/01_ENVELOPE/ENV_STG02_LEVELS/ENV_STG02_LEVELS.gh
+    deps:
+    - path: project/00_REFERENCE/REF_FLOORS/REF_FLOORS.3dm
+      hash: md5
+      md5: d41d8cd98f00b204e9800998ecf8427e
+      size: 0
+    - path: project/01_ENVELOPE/ENV_STG01_MASSING/ENV_STG01_Massing.3dm
+      hash: md5
+      md5: d41d8cd98f00b204e9800998ecf8427e
+      size: 0
+    - path: project/01_ENVELOPE/ENV_STG02_LEVELS/ENV_STG02_LEVELS.gh
+      hash: md5
+      md5: 368e9f53a1c8ad789b1fb9193b7c605f
+      size: 26144
+    outs:
+    - path: project/01_ENVELOPE/ENV_STG02_LEVELS/ENV_STG02_LEVELS.3dm
+      hash: md5
+      md5: d41d8cd98f00b204e9800998ecf8427e
+      size: 0
+  02_PANELS-01_WF-PAN_WF_STG01_Joints:
+    cmd: touch project/02_PANELS/01_WF/PAN_WF_STG01_Joints/PAN_WF_STG01_Joints.3dm
+      && echo project/02_PANELS/01_WF/PAN_WF_STG01_Joints/PAN_WF_STG01_Joints.gh
+    deps:
+    - path: project/01_ENVELOPE/ENV_STG02_LEVELS/ENV_STG02_LEVELS.3dm
+      hash: md5
+      md5: d41d8cd98f00b204e9800998ecf8427e
+      size: 0
+    - path: project/02_PANELS/01_WF/PAN_WF_STG01_Joints/PAN_WF_STG01_Joints.gh
+      hash: md5
+      md5: 27f7f0c5486c312fa6c76b4eac91d603
+      size: 19556
+    outs:
+    - path: project/02_PANELS/01_WF/PAN_WF_STG01_Joints/PAN_WF_STG01_Joints.3dm
+      hash: md5
+      md5: d41d8cd98f00b204e9800998ecf8427e
+      size: 0
