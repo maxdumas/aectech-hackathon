@@ -1,31 +1,7 @@
-# All the Way Down
-
-This project sets out to increase iteration time to design changes, improve version control, and eliminate discrepancies between different stages of design. It was developed at the AEC Tech New York Hackathon 2023 hosted by Thornton Tomasetti CORE studio.
-
-![image](https://github.com/maxdumas/aectech-hackathon/blob/main/Static/rhino-sculpture-brooklyn.webp)
-
-
-## Team
-- [Chau Nguyen]() - Foster and Partners
-- [Keyan Rahimzadeh]() - Front
-- [Patryk Wozniczka]() - 
-- [Nathan Barnes](https://www.azahner.com/) - Zahner
-- [Sarang Pramode](https://ulama.tech) - Ulama
-- [Tyce Herrman](https://ulama.tech) - Ulama
-- [Max Dumas](https://ulama.tech) - Ulama
 
 
 
-- [Data Version Control](https://dvc.org/) - DVC
-- [Rhinocommon]() - Rhino
-- [Grasshopper]() - Grasshopper
 
-
-## Installation
-
-
-
-## How to use
 
 
 <h1 align="center">
@@ -34,9 +10,9 @@ This project sets out to increase iteration time to design changes, improve vers
   <br>
 </h1>
 
+![image](https://github.com/maxdumas/aectech-hackathon/blob/main/Static/rhino-sculpture-brooklyn.webp)
+
 <h4 align="center">Dependency management and version control for grasshopper graph.</h4>
-
-
 
 <p align="center">
   <a href="#why">Why AllTheWayDown?</a> •
@@ -53,6 +29,17 @@ This project sets out to increase iteration time to design changes, improve vers
 ## AllTheWayDown
 
 AllTheWayDown (ATWD) allows for managing dependencies within design workflows. Initially, ATWD script graphs.  
+
+This project sets out to increase iteration time to design changes, improve version control, and eliminate discrepancies between different stages of design. It was developed at the AEC Tech New York Hackathon 2023 hosted by Thornton Tomasetti CORE studio.
+
+The hackathon team included:
+- [Chau Nguyen]() - Foster and Partners
+- [Keyan Rahimzadeh]() - Front
+- [Patryk Wozniczka]() - 
+- [Nathan Barnes](https://www.azahner.com/) - Zahner
+- [Sarang Pramode](https://ulama.tech) - Ulama
+- [Tyce Herrman](https://ulama.tech) - Ulama
+- [Max Dumas](https://ulama.tech) - Ulama
 
 ## Key Features
 
