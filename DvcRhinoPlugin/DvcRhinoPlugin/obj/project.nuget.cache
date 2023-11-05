@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "Ri6M7+aKnMaAimJwsRjVhu4GzaGHxsuSRbOap/ov3QG4bkgENUbk77kxLeweLvDmqCWIB7ASJXhM6s6GWYaggw==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Pat\\aec-hackathon-2023\\DvcRhinoPlugin\\DvcRhinoPlugin\\DvcRhinoPlugin.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Pat\\.nuget\\packages\\rhinocommon\\7.13.21348.13001\\rhinocommon.7.13.21348.13001.nupkg.sha512"
+  ],
+  "logs": []
+}
