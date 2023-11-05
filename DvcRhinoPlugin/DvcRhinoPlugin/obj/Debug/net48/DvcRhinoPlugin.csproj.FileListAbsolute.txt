@@ -7,3 +7,14 @@ C:\Users\Pat\aec-hackathon-2023\DvcRhinoPlugin\DvcRhinoPlugin\obj\Debug\net48\Dv
 C:\Users\Pat\aec-hackathon-2023\DvcRhinoPlugin\DvcRhinoPlugin\obj\Debug\net48\DvcRhinoPlugin.csproj.CoreCompileInputs.cache
 C:\Users\Pat\aec-hackathon-2023\DvcRhinoPlugin\DvcRhinoPlugin\obj\Debug\net48\DvcRhinoPlugin.rhp
 C:\Users\Pat\aec-hackathon-2023\DvcRhinoPlugin\DvcRhinoPlugin\obj\Debug\net48\DvcRhinoPlugin.pdb
+C:\Users\Pat\aec-hackathon-2023\aectech-hackathon\DvcRhinoPlugin\DvcRhinoPlugin\obj\Debug\net48\DvcRhinoPlugin.csproj.AssemblyReference.cache
+C:\Users\Pat\aec-hackathon-2023\aectech-hackathon\DvcRhinoPlugin\DvcRhinoPlugin\obj\Debug\net48\DvcRhinoPlugin.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Pat\aec-hackathon-2023\aectech-hackathon\DvcRhinoPlugin\DvcRhinoPlugin\obj\Debug\net48\DvcRhinoPlugin.AssemblyInfoInputs.cache
+C:\Users\Pat\aec-hackathon-2023\aectech-hackathon\DvcRhinoPlugin\DvcRhinoPlugin\obj\Debug\net48\DvcRhinoPlugin.AssemblyInfo.cs
+C:\Users\Pat\aec-hackathon-2023\aectech-hackathon\DvcRhinoPlugin\DvcRhinoPlugin\obj\Debug\net48\DvcRhinoPlugin.csproj.CoreCompileInputs.cache
+C:\Users\Pat\aec-hackathon-2023\aectech-hackathon\DvcRhinoPlugin\DvcRhinoPlugin\obj\Debug\net48\DvcRhinoPlugin.rhp
+C:\Users\Pat\aec-hackathon-2023\aectech-hackathon\DvcRhinoPlugin\DvcRhinoPlugin\obj\Debug\net48\DvcRhinoPlugin.pdb
+C:\Users\Pat\aec-hackathon-2023\aectech-hackathon\DvcRhinoPlugin\DvcRhinoPlugin\bin\Debug\net48\DvcRhinoPlugin.rhp
+C:\Users\Pat\aec-hackathon-2023\aectech-hackathon\DvcRhinoPlugin\DvcRhinoPlugin\bin\Debug\net48\DvcRhinoPlugin.pdb
+C:\Users\Pat\aec-hackathon-2023\aectech-hackathon\DvcRhinoPlugin\DvcRhinoPlugin\bin\Debug\net48\YamlDotNet.dll
+C:\Users\Pat\aec-hackathon-2023\aectech-hackathon\DvcRhinoPlugin\DvcRhinoPlugin\obj\Debug\net48\DvcRhinoPlugin.csproj.CopyComplete
