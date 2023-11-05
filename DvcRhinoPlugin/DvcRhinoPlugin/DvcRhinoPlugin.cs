@@ -1,4 +1,6 @@
 ﻿using Rhino;
+using Rhino.PlugIns;
+using SpitTextFile;
 using System;
 
 namespace DvcRhinoPlugin
@@ -16,10 +18,16 @@ namespace DvcRhinoPlugin
         public DvcRhinoPlugin()
         {
             Instance = this;
+
         }
 
         ///<summary>Gets the only instance of the DvcRhinoPlugin plug-in.</summary>
         public static DvcRhinoPlugin Instance { get; private set; }
+
+        protected override LoadReturnCode OnLoad(ref string errorMessage) {
+            var triggerSave = new TriggerSave();
+            triggerSave.Trigger(ref errorMessage);
+            return base.OnLoad(ref errorMessage); }
 
         // You can override methods here to change the plug-in behavior on
         // loading and shut down, add options pages to the Rhino _Option command

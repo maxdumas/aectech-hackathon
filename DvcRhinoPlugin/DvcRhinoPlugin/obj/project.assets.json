@@ -2,7 +2,32 @@
   "version": 3,
   "targets": {
     ".NETFramework,Version=v4.8": {
-      "RhinoCommon/7.13.21348.13001": {
+      "Grasshopper/7.34.23267.11001": {
+        "type": "package",
+        "dependencies": {
+          "RhinoCommon": "[7.34.23267.11001]"
+        },
+        "compile": {
+          "lib/net48/GH_IO.dll": {
+            "related": ".XML"
+          },
+          "lib/net48/Grasshopper.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net48/GH_IO.dll": {
+            "related": ".XML"
+          },
+          "lib/net48/Grasshopper.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "build/net48/Grasshopper.targets": {}
+        }
+      },
+      "RhinoCommon/7.34.23267.11001": {
         "type": "package",
         "compile": {
           "lib/net48/Eto.dll": {
@@ -14,40 +39,103 @@
           }
         },
         "runtime": {
-          "lib/net48/_._": {
+          "lib/net48/Eto.dll": {
             "related": ".xml"
+          },
+          "lib/net48/Rhino.UI.dll": {},
+          "lib/net48/RhinoCommon.dll": {
+            "related": ".XML"
           }
         },
         "build": {
-          "build/RhinoCommon.targets": {}
+          "build/net48/RhinoCommon.targets": {}
+        }
+      },
+      "YamlDotNet/13.7.1": {
+        "type": "package",
+        "compile": {
+          "lib/net47/YamlDotNet.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net47/YamlDotNet.dll": {
+            "related": ".xml"
+          }
         }
       }
     }
   },
   "libraries": {
-    "RhinoCommon/7.13.21348.13001": {
-      "sha512": "JQdaNw61ddBqIe08E9O4N/grwrN1hjDHcYW7tWylwCZyFR7SepoCD4NS+6LN6+oSQhNbhLi9Bf+hQOFYFdRAEA==",
+    "Grasshopper/7.34.23267.11001": {
+      "sha512": "ukTyTb2Cpeigq4tkGrmXixpziiwF5dkgplV9Xj1rN9LGVLkZNzp1PWxvIEjQDFyjTiGfg/ZwMCRgDEXd+l2XNg==",
       "type": "package",
-      "path": "rhinocommon/7.13.21348.13001",
+      "path": "grasshopper/7.34.23267.11001",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "build/net48/Grasshopper.targets",
+        "grasshopper.7.34.23267.11001.nupkg.sha512",
+        "grasshopper.nuspec",
+        "grasshopper.png",
+        "lib/net48/GH_IO.XML",
+        "lib/net48/GH_IO.dll",
+        "lib/net48/Grasshopper.dll",
+        "lib/net48/Grasshopper.xml"
+      ]
+    },
+    "RhinoCommon/7.34.23267.11001": {
+      "sha512": "FN4ocKMKcfFCgcUL9ryRFL6vGeWJH9O4NlXpwtAdg3zqeLWlkDFkPyn7qJ8bqStvSdiWd+6Mp1NEuxb4BVeDWA==",
+      "type": "package",
+      "path": "rhinocommon/7.34.23267.11001",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "Eto-LICENSE.txt",
-        "build/RhinoCommon.targets",
+        "build/net48/RhinoCommon.targets",
         "lib/net48/Eto.dll",
         "lib/net48/Eto.xml",
         "lib/net48/Rhino.UI.dll",
         "lib/net48/RhinoCommon.XML",
         "lib/net48/RhinoCommon.dll",
-        "rhinocommon.7.13.21348.13001.nupkg.sha512",
+        "rhinocommon.7.34.23267.11001.nupkg.sha512",
         "rhinocommon.nuspec",
         "rhinocommon.png"
+      ]
+    },
+    "YamlDotNet/13.7.1": {
+      "sha512": "X4m1PnFcJwvAj1sCDMntg/eZcX96CJLrWMiYnq41KqhFVZPuw63ZTSxIGqgdCwHWHvCAyTxheELC/VDf1HsU2A==",
+      "type": "package",
+      "path": "yamldotnet/13.7.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.txt",
+        "images/yamldotnet.png",
+        "lib/net35/YamlDotNet.dll",
+        "lib/net35/YamlDotNet.xml",
+        "lib/net45/YamlDotNet.dll",
+        "lib/net45/YamlDotNet.xml",
+        "lib/net47/YamlDotNet.dll",
+        "lib/net47/YamlDotNet.xml",
+        "lib/net6.0/YamlDotNet.dll",
+        "lib/net6.0/YamlDotNet.xml",
+        "lib/net7.0/YamlDotNet.dll",
+        "lib/net7.0/YamlDotNet.xml",
+        "lib/netstandard2.0/YamlDotNet.dll",
+        "lib/netstandard2.0/YamlDotNet.xml",
+        "lib/netstandard2.1/YamlDotNet.dll",
+        "lib/netstandard2.1/YamlDotNet.xml",
+        "yamldotnet.13.7.1.nupkg.sha512",
+        "yamldotnet.nuspec"
       ]
     }
   },
   "projectFileDependencyGroups": {
     ".NETFramework,Version=v4.8": [
-      "RhinoCommon >= 7.13.21348.13001"
+      "Grasshopper >= 7.34.23267.11001",
+      "RhinoCommon >= 7.34.23267.11001",
+      "YamlDotNet >= 13.7.1"
     ]
   },
   "packageFolders": {
@@ -93,10 +181,17 @@
       "net48": {
         "targetAlias": "net48",
         "dependencies": {
-          "RhinoCommon": {
-            "include": "Compile, Build",
+          "Grasshopper": {
             "target": "Package",
-            "version": "[7.13.21348.13001, )"
+            "version": "[7.34.23267.11001, )"
+          },
+          "RhinoCommon": {
+            "target": "Package",
+            "version": "[7.34.23267.11001, )"
+          },
+          "YamlDotNet": {
+            "target": "Package",
+            "version": "[13.7.1, )"
           }
         },
         "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.403\\RuntimeIdentifierGraph.json"

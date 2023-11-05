@@ -15,7 +15,9 @@
   </ItemGroup>
   
   <ItemGroup>
-    <PackageReference Include="RhinoCommon" Version="7.13.21348.13001" IncludeAssets="compile;build" />
+    <PackageReference Include="Grasshopper" Version="7.34.23267.11001" />
+    <PackageReference Include="RhinoCommon" Version="7.34.23267.11001" />
+    <PackageReference Include="YamlDotNet" Version="13.7.1" />
   </ItemGroup>
   
 </Project>
