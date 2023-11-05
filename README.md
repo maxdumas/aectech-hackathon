@@ -4,7 +4,7 @@
   <br>
 </h1>
 
-![Rhinos ATWD](/Static/stacked-rhinos-sculpture.png)
+![Rhinos ATWD](https://github.com/maxdumas/aectech-hackathon/blob/main/Static/stacked-rhinos-sculpture.png)
 
 <h4 align="center">Dependency management and version control to link every phase of design.</h4>
 
@@ -12,11 +12,11 @@
   <a href="#why">Why AllTheWayDown?</a> •
   <a href="#key-features">Key Features</a> •
   <a href="#how-to-use">How To Use</a> •
-  <a href="#credits">Credits</a> •
-  <a href="#license">License</a>
+  <a href="#how-to-use">Next Steps</a> •
+  <a href="#credits">Credits</a> 
 </p>
 
-![screenshot]()
+![screenshot](https://github.com/maxdumas/aectech-hackathon/blob/5d2b262d01489dc414fb073afc2a7a84a45a7d01/Static/graph-Growth.gif)
 
 ## AllTheWayDown
 
@@ -24,12 +24,13 @@ AllTheWayDown (ATWD) allows for managing dependencies within design workflows, w
 
 ATWD was developed at the AEC Tech New York Hackathon 2023 hosted by Thornton Tomasetti CORE studio. The hackathon team included:
 - [Chau Nguyen](https://github.com/minhchau1510) - [Foster + Partners](https://www.fosterandpartners.com)
-- [Keyan Rahimzadeh](https://github.com/keyan-r) - Front
-- [Patryk Wozniczka](https://github.com/patrykwoz) - 
+- [Keyan Rahimzadeh](https://github.com/keyan-r) - [Grimshaw](https://grimshaw.global)
+- [Max Dumas](https://github.com/maxdumas) - [Ulama](https://ulama.tech)
 - [Nathan Barnes](https://github.com/nathan-barnes) - [Zahner](https://www.azahner.com/)
+- [Patryk Wozniczka](https://github.com/patrykwoz) - [PJW](https://patrykwozniczka.com)
 - [Sarang Pramode](https://github.com/Sarang-Pramode) - [Ulama](https://ulama.tech)
 - [Tyce Herrman](https://github.com/TyceHerrman) - [Ulama](https://ulama.tech)
-- [Max Dumas](https://github.com/maxdumas) - [Ulama](https://ulama.tech)
+
 
 ## Key Features
 
@@ -71,6 +72,15 @@ python -m http.server 5000
 ```
 
 
+## Next Steps
+
+* Presently, this tool just works with files with Rhino/Grasshopper integration, but it can eventually work with anything and be design tool agnostic. 
+
+* This project could be extended to easily integrate with external APIs as well.
+
+* The project is built on top of Git semantics, so any Git features (branching, commits, etc.) could be abstracted into a  user-friendly experience to bring the power of Git to any designer.
+
+
 ## Credits
 
 This software uses the following open source packages:
@@ -81,12 +91,3 @@ It also uses
 
 - [Rhinocommon](https://www.rhino3d.com)
 - [Grasshopper](https://www.grasshopper3d.com)
-
-
-
-## License
-
-MIT
-
----
-
