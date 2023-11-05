@@ -1,0 +1,2 @@
+dvc repro -q > steps.txt //list of script
+dvc dag --mermaid > dag.mermaid //diagram
