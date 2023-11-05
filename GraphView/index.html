@@ -40,12 +40,30 @@
         nodes = fetchedNodes;
         links = fetchedLinks;
 
-        const data = nodes.map(node => ({
-            id: node.id,
-            parentIds: links.filter(l => l.target === node.id).map(l => l.source)
-        }));
+        // const data = nodes.map(node => ({
+        //     id: node.id,
+        //     parentIds: links.filter(l => l.target === node.id).map(l => l.source)
+        // }));
 
-        console.log(data);
+        // console.log(data);
+
+        const data = nodes.map(node => {
+        // Log the current node ID
+        console.log('Current Node ID:', node.id);
+
+        // Find and log parent IDs for the current node
+        const parentIds = links.filter(l => l.target === node.id).map(l => l.source);
+        console.log('Parent IDs:', parentIds);
+
+        return {
+            id: node.id,
+            parentIds: parentIds
+            };
+        });
+
+    // Log the final data structure
+    console.log('Final Data Structure:', data);
+
 
         // Once nodes and links are loaded, initialize the graph
         //initializeGraph();
@@ -59,7 +77,7 @@
       // -------------- //
 
       // set the layout functions
-      const nodeRadius = 250;
+      const nodeRadius = 150;
       const nodeSize = [nodeRadius * 2, nodeRadius * 2];
       // this truncates the edges so we can render arrows nicely
       const shape = d3dag.tweakShape(nodeSize, d3dag.shapeEllipse);
